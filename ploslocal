@@ -1,7 +1,56 @@
 --[[
+
 plosLocal v1
 As always, configure the game version local line.
 Every other stuff will be edited by me.
 
-GitHub link:
+Check the GitHub for updates:
+github.com/Guest666Master/plosLocal-RobloxVersionChecker
+
+--]]
+
+local plosversion
+
+-- ! DO NOT EDIT --
+
+
+plosversion = 1
+
+if 1 then
+	print("this game uses ploslocal. the current version is 1.")
+	print("recording version...")
+	wait(6.1)
+	checkRobloxEdition()
+	checkGameVersion()
+	print("recording successful!")
+end
+
+if 2 then
+	error("game recording error! reading HTTPS requests from and back failed. error code -12 - WARN_FUTUREVERSION")
+end
+
+if nil then
+	warn("game version checker error | reading index as 'nil.'")
+	error("ploslocal error 01 | failed to read package.")
+end
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+local ploseditable
+
+-- Do not edit the ploslocal variable.
+ploslocal = 1
+
+
+gameversion = 0.1
+-- Edit the "version_here" with your version of your game
+print("@server array to game version approved")
+
+--[[
+made all by me!
+please ensure you are using the correct version, because when a new version is released, the last edition would only say "Outdated version." it can also happen if you even make a leaked version!
+thanks for using ploslocal!
+
+credits
+Mumka1boy - creator, the coder for the whole thing
 --]]
