@@ -1,0 +1,44 @@
+--!strict
+--[[
+	.__               .____                        .__   
+______ |  |   ____  _____|    |    ____   ____ _____  |  |  
+\____ \|  |  /  _ \/  ___/    |   /  _ \_/ ___\\__  \ |  |  
+|  |_> >  |_(  <_> )___ \|    |__(  <_> )  \___ / __ \|  |__
+|   __/|____/\____/____  >_______ \____/ \___  >____  /____/ 
+	|__|                   \/        \/          \/     \/   v2
+	
+	Check out the GitHub Repository: https://github.com/Guest666Master/plosLocal-RobloxVersionChecker
+
+	This is simple. Don't edit anything (execpt Config.)
+
+	"Why can't I edit the script if it's simple?"
+	So it doesn't break, duh.
+
+
+]]
+
+--Config
+local warn = function(...)
+	warn(":: plosLocal ::", ...)
+end
+
+local print = function(...)
+	print(":: plosLocal ::", ...)
+end
+
+local error = function(...)
+	error(":: plosLocal - Developer Error ::", ...)
+end
+-- End of config
+
+print("plosLocal has successfully been loaded.")
+wait(5)
+print("Loader ran successfully. Now getting version number...")
+local printVersion = function()
+	local version = game.PlaceVersion
+	print("Game Version: " .. version)
+end
+
+printVersion()
+
+print("Game version successfully printed.")
