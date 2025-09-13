@@ -1,4 +1,5 @@
 <h1>plosLocal</h1>
+<p><i>Js know that v2 has lesser storage taking up than v1</i></p>
 
 > [!NOTE]  
 > v2 should be used! v1 does nothing. You'll need to edit v1; v2 does everything.
